@@ -16,7 +16,13 @@ class MainActivity : AppCompatActivity() {
 
         imageViewAnimation.visibility = View.GONE
 
-        anim = AnimationUtils.loadAnimation(this,R.anim.myfadeanim_1)
+        //anim = AnimationUtils.loadAnimation(this,R.anim.myfadeanim_1)
+       // anim = AnimationUtils.loadAnimation(this,R.anim.zoom_file)
+      //  anim = AnimationUtils.loadAnimation(this,R.anim.rotate_file)
+        anim = AnimationUtils.loadAnimation(this,R.anim.move_file)
+
+
+
 
         buttonAnim.setOnClickListener {
             imageViewAnimation.visibility = View.VISIBLE
